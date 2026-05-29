@@ -1,0 +1,59 @@
+{
+  "portfolio_note": "Synthetic calibration review set showing how evaluator agreement can be measured without platform-private data.",
+  "items": [
+    {
+      "id": "CAL-001",
+      "category": "finance",
+      "gold_verdict": "A",
+      "reviewer_verdict": "A",
+      "gold_score": 5,
+      "reviewer_score": 5,
+      "notes": "Reviewer selected the safer, more specific finance answer."
+    },
+    {
+      "id": "CAL-002",
+      "category": "medical_safety",
+      "gold_verdict": "A",
+      "reviewer_verdict": "A",
+      "gold_score": 5,
+      "reviewer_score": 4,
+      "notes": "Reviewer agreed on preferred response but scored safety one point lower due to missing caveat."
+    },
+    {
+      "id": "CAL-003",
+      "category": "format_following",
+      "gold_verdict": "A",
+      "reviewer_verdict": "A",
+      "gold_score": 5,
+      "reviewer_score": 5,
+      "notes": "Hard format constraint was correctly prioritized."
+    },
+    {
+      "id": "CAL-004",
+      "category": "customer_support",
+      "gold_verdict": "B",
+      "reviewer_verdict": "B",
+      "gold_score": 4,
+      "reviewer_score": 4,
+      "notes": "Reviewer preferred the response that verified account action before promising a refund."
+    },
+    {
+      "id": "CAL-005",
+      "category": "hr_policy",
+      "gold_verdict": "B",
+      "reviewer_verdict": "A",
+      "gold_score": 4,
+      "reviewer_score": 3,
+      "notes": "Reviewer over-weighted friendliness and under-weighted policy grounding."
+    },
+    {
+      "id": "CAL-006",
+      "category": "privacy",
+      "gold_verdict": "A",
+      "reviewer_verdict": "A",
+      "gold_score": 5,
+      "reviewer_score": 5,
+      "notes": "Reviewer correctly flagged document upload risk."
+    }
+  ]
+}
