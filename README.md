@@ -28,7 +28,16 @@ This repository demonstrates public-facing rubric structures for RLHF, SFT, prom
 - `rubric-template.md`: a reusable model-response evaluation rubric
 - `side-by-side-review.md`: an example structure for comparing two AI responses
 - `evaluated-response-examples.md`: completed public examples with Response A/B scoring, preferred response decisions, and reviewer rationale
+- [data/ab_evaluations.json](data/ab_evaluations.json): structured A/B evaluation dataset with dimension-level scores
+- [scripts/score_ab_examples.py](scripts/score_ab_examples.py): dependency-free Python script that calculates average score gaps
+- [outputs/evaluation-summary.md](outputs/evaluation-summary.md): recruiter-readable A/B scoring summary
 
 ## Confidentiality Standard
 
 No platform-specific internal rubrics, private prompts, screenshots, or real task outputs are included.
+
+## Run Locally
+
+```bash
+python scripts/score_ab_examples.py
+```
